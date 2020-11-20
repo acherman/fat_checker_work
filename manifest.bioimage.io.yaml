@@ -57,3 +57,35 @@ model:
     covers:
       - https://panoptes-uploads.zooniverse.org/production/project_attached_image/e3a1bb93-c69b-482e-88e8-8b2a2b6424d4.png
       - https://panoptes-uploads.zooniverse.org/production/project_attached_image/92a04c8b-3b09-4356-acc2-97c3653fda97.jpeg
+notebook:
+  - id: Fat Checker
+    source: >-
+      https://raw.githubusercontent.com/acherman/fat_checker_work/master/models/modelA/modelA.model.yaml
+    links:
+      - Fat Checker
+  - id: eac_fat_checker_model
+    name: Fat Checker 2D U-Net
+    tags:
+      - classification
+      - lipids
+      - electron microscopy
+      - <model1>
+      - <modelID>
+    framework: <pytorch, sklearn>
+    authors:
+      - Thomas Pengo
+    license: MIT
+    cite: null
+    git_repo: >-
+      https://github.com/acherman/fat_checker_work
+    description: >-
+      2D Unet for Lipid Classification
+    documentation: >-
+      https://raw.githubusercontent.com/acherman/fat_checker_work/README.md
+    badges:
+      - label: Coolest Projects Ever
+        ext: 1st
+        url: https://www.kaggle.com/c/human-protein-atlas-image-classification/leaderboard
+    covers:
+      - https://panoptes-uploads.zooniverse.org/production/project_attached_image/e3a1bb93-c69b-482e-88e8-8b2a2b6424d4.png
+      - https://panoptes-uploads.zooniverse.org/production/project_attached_image/92a04c8b-3b09-4356-acc2-97c3653fda97.jpeg
