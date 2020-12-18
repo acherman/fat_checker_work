@@ -1,4 +1,10 @@
-# Models
+# Fat Checker
+This repo is our hook into the [BioImage.IO](https://bioimage.io/) model zoo. 
+
+
+## Background
+We're train a U-net to classify lipid droplets from liver samples. We use the Zooniverse platform to get human-annotated training data.
+
 
 ## Examples
 
