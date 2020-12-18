@@ -1,5 +1,5 @@
 # Fat Checker
-This repo is our hook into the [BioImage.IO](https://bioimage.io/) model zoo. 
+This repo will be our hook into the [BioImage.IO](https://bioimage.io/) model zoo. 
 
 
 ## Background
@@ -7,14 +7,10 @@ We're training a U-net to classify lipid droplets from liver samples. We use the
 
 
 
-## Examples/Inspiration
-Just holding on to this for now...
+## Where we are
+These are early days. We've pulled annotations from an early iteration of the project and trained a 2D Unet (see [notebooks](https://github.com/acherman/fat_checker_work/tree/main/notebooks)) and have a model (see [models](https://github.com/acherman/fat_checker_work/tree/main/models) for a brief explanation, the actual model files [live here](https://drive.google.com/drive/folders/1tMrLvCPADS6z-VxMf3aiCpjki9K3jrpp?usp=sharing)).
 
-[Here](https://github.com/bioimage-io/pytorch-bioimage-io/blob/f71b8ac598267de88cd39e5495abd93dcda1d0a4/specs/models/unet2d/nuclei_broad/UNet2DNucleiBroad.model.yaml)
-
-[Here](https://github.com/kipoi/models/blob/master/deepTarget/model.yaml)
-
-Can also have a zipped-up directory containing scripts et al...
+We're looking to build out our complete workflow and are requesting partnership with BioImage.IO.
 
 
 
